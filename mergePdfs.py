@@ -29,4 +29,4 @@ def ScanForPDFsAndMergeByFolder():
         merger.write(folder+".pdf")
 
 
-print(f"Scandir:          {timeit.timeit(ScanForPDFsAndMergeByFolder, number=1000):.3f}")
+print(f"Scandir:          {timeit.timeit(ScanForPDFsAndMergeByFolder, number=1):.3f}")
